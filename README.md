@@ -1,2 +1,0 @@
-# FirstApp
- Pierwsza aplikacja
