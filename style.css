@@ -11,8 +11,8 @@
 .cell {
     width: 100px;
     height: 100px;
-    margin: 10px;
     background-color: red;
-    font-size: 72px;
+    margin: 10px;
+    font-size: 70px;
     text-align: center;
 }
