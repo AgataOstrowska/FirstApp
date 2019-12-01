@@ -26,9 +26,9 @@ function userClicked(cell) {
 
 function checkWin(player) {
     if(document.getElementById(1).innerHTML == player &&
-        document.getElementById(2).innerHTML == player&&
-            document.getElementById(3).innerHTML == player){
-                return true;
+       document.getElementById(2).innerHTML == player &&
+       document.getElementById(3).innerHTML == player){
+         return true;
     }
 
     if(document.getElementById(4).innerHTML == player &&
@@ -73,28 +73,20 @@ function checkWin(player) {
             document.getElementById(7).innerHTML == player){
                 return true;
     }
-    return false;
-}
 
 
-    if( document.getElementById(1).innerHTML != "" &&
-        document.getElementById(2).innerHTML != "" &&
-        document.getElementById(3).innerHTML != "" &&
-        document.getElementById(4).innerHTML != "" &&
-        document.getElementById(5).innerHTML != "" &&
-        document.getElementById(6).innerHTML != "" &&
-        document.getElementById(7).innerHTML != "" &&
-        document.getElementById(8).innerHTML != "" &&
-        document.getElementById(9).innerHTML != "") {
+
+    if( document.getElementById(1).innerHTML !== "" &&
+        document.getElementById(2).innerHTML !== "" &&
+        document.getElementById(3).innerHTML !== "" &&
+        document.getElementById(4).innerHTML !== "" &&
+        document.getElementById(5).innerHTML !== "" &&
+        document.getElementById(6).innerHTML !== "" &&
+        document.getElementById(7).innerHTML !== "" &&
+        document.getElementById(8).innerHTML !== "" &&
+        document.getElementById(9).innerHTML !== "") {
             console.log("remis")
             game = false;
-            return false;
         }
-
-
-
-/*
-    x,x,x
-    *,*,*
-    *,*,*
-*/
+    return false;
+  }
